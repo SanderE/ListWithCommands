@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>7dee93e1-eedf-437d-a76e-d377eef62332</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>XFS.ListWithCommands</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\BaseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cells\PlayerListItemCellcs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ListItems\PlayerListItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Player.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Race.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\PlayerDetailPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\PlayerListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UIComponents\Labels.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\PlayerListViewModel.cs" />
+  </ItemGroup>
+</Project>
